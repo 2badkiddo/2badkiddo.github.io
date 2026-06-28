@@ -12,19 +12,21 @@ body {
 }
 
 h1 {
+    margin: 0;
     font-size: 2.5em;
-    margin-bottom: 0;
 }
 
 .subtitle {
     color: #8b949e;
-    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
-h2 {
-    margin-top: 40px;
-    border-bottom: 1px solid #30363d;
-    padding-bottom: 5px;
+p {
+    margin: 10px 0;
+}
+
+.project {
+    margin-bottom: 20px;
 }
 
 a {
@@ -34,10 +36,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.project {
-    margin-bottom: 20px;
 }
 
 ul {
